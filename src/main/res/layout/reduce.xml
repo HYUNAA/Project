@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="1.가족 구성원과 식사 횟수에 맞추어 필요한 식재료만 구입하여 음식물 쓰레기 발생을 방지한다.
+            \n\n 2.채소와 과일은 빠르게 상해 음식물쓰레기가 발생할 확률이 높으므로 바로 손질한 후에 봉투나 용기에 담아 보관한다.
+\n\n3.식재료는 한끼 분량으로 보관하여 식사할 때 필요한 만큼 사용한다
+\n\n4.음식 조리할 때 먹을 만큼만 만든다.
+\n\n5.음식물쓰레기를 거름으로 만들어 화단을 가꾼다.
+\n\n6.음식물쓰레기를 배출할 때 이물질과 물기를 제거하여 퇴비·사료로 재활용될 수 있도록 분리 배출한다."
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:src="@drawable/im01" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="사진 출처:http://kosis.kr/statHtml/statHtml.do?orgId=106tblId=DT_106N_99_3300351conn_path=I2"
+        android:textColor="#000000"
+        android:textSize="7dp" />
+</LinearLayout>
